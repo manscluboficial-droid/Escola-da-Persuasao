@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #000;
+    color: #fff;
     line-height: 1.6;
 }
 
@@ -23,13 +23,13 @@ h1 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 20px;
-    color: #003366;
+    color: #fff;
     letter-spacing: -0.02em;
 }
 
 .subtitle {
     font-size: 1.2rem;
-    color: #666;
+    color: #e0e0e0;
     margin-bottom: 0;
     font-weight: 400;
 }
@@ -42,10 +42,10 @@ h1 {
 }
 
 .link-block {
-    background: white;
+    background: #111;
     border-radius: 12px;
     padding: 30px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -58,12 +58,12 @@ h1 {
     font-size: 1.4rem;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #003366;
+    color: #1976d2;
 }
 
 .link-block p {
     font-size: 1rem;
-    color: #666;
+    color: #e0e0e0;
     margin-bottom: 25px;
     line-height: 1.5;
 }
@@ -72,8 +72,8 @@ h1 {
     display: block;
     width: 100%;
     padding: 16px 24px;
-    background-color: #003366;
-    color: white;
+    background-color: #001f4d;
+    color: #fff;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
@@ -85,7 +85,7 @@ h1 {
 }
 
 .botao-venda:hover {
-    background-color: #002244;
+    background-color: #003366;
     transform: translateY(-1px);
 }
 
@@ -96,13 +96,13 @@ h1 {
 footer {
     text-align: center;
     padding-top: 40px;
-    border-top: 1px solid #e0e0e0;
-    color: #888;
+    border-top: 1px solid #222;
+    color: #e0e0e0;
     font-size: 0.9rem;
 }
 
 footer a {
-    color: #003366;
+    color: #1976d2;
     text-decoration: none;
 }
 
@@ -135,6 +135,7 @@ footer a:hover {
     .botao-venda {
         padding: 14px 20px;
         font-size: 1rem;
+        background-color: #001f4d;
     }
 }
 
@@ -145,5 +146,8 @@ footer a:hover {
 
     .link-block {
         padding: 20px 15px;
+    }
+    .botao-venda {
+        background-color: #001f4d;
     }
 }
