@@ -1,0 +1,149 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #003366;
+    letter-spacing: -0.02em;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.link-block {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.link-block:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.link-block h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #003366;
+}
+
+.link-block p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.botao-venda {
+    display: block;
+    width: 100%;
+    padding: 16px 24px;
+    background-color: #003366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-venda:hover {
+    background-color: #002244;
+    transform: translateY(-1px);
+}
+
+.botao-venda:active {
+    transform: translateY(0);
+}
+
+footer {
+    text-align: center;
+    padding-top: 40px;
+    border-top: 1px solid #e0e0e0;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #003366;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1.1rem;
+    }
+
+    .link-block {
+        padding: 25px 20px;
+    }
+
+    .link-block h3 {
+        font-size: 1.3rem;
+    }
+
+    .botao-venda {
+        padding: 14px 20px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .link-block {
+        padding: 20px 15px;
+    }
+}
